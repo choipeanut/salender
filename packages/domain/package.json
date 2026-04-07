@@ -1,0 +1,15 @@
+{
+  "name": "@salecalendar/domain",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@salecalendar/shared-types": "workspace:*",
+    "@supabase/supabase-js": "^2.49.8",
+    "zod": "^3.24.2"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  }
+}

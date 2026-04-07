@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/shared-types" },
+    { "path": "./packages/ui" },
+    { "path": "./packages/brand-connectors" },
+    { "path": "./packages/domain" },
+    { "path": "./apps/mobile" },
+    { "path": "./apps/admin-web/tsconfig.build.json" },
+    { "path": "./apps/collector-worker" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@salecalendar/collector-worker",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@salecalendar/brand-connectors": "workspace:*"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dry-run": "node dist/dry-run.js"
+  }
+}
