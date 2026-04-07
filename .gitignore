@@ -10,3 +10,4 @@ coverage/
 .tools/
 .next/
 *.tsbuildinfo
+.expo/
