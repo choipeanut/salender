@@ -5,9 +5,17 @@
     "version": "0.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "package": "com.choipeanut.salender"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "807e1ca4-d016-4837-929c-b1d87544241d"
+      }
+    },
+    "owner": "bellminic"
   }
 }

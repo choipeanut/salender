@@ -6,8 +6,9 @@
   "types": "dist/index.d.ts",
   "dependencies": {
     "expo": "~53.0.0",
+    "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
-    "react-native": "0.79.0"
+    "react-native": "0.79.6"
   },
   "scripts": {
     "start": "expo start",
@@ -17,5 +18,8 @@
     "build": "tsc -p tsconfig.json",
     "build:android:apk": "npx eas-cli build --platform android --profile preview",
     "build:android:aab": "npx eas-cli build --platform android --profile production"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "15.1.3"
   }
 }
